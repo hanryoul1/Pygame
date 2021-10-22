@@ -18,7 +18,7 @@ while True:
     board()
 
     if pl_pos == 30:
-        print("여러분이 승리했습니다!")
+        print("당신이 승리했습니다!")
         break
 
     input("Enter를 누르면 말이 움직입니다")
