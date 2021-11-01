@@ -3,7 +3,7 @@
 import tkinter
 
 root = tkinter.Tk()
-root.title("률이가 주현이에게")
+root.title("고양이 지수 판단 게임")
 root.resizable(False, False)
 
 canvas = tkinter.Canvas(root, width=800, height=600)
