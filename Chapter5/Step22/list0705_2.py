@@ -31,6 +31,7 @@ ITEM = [
 for i in range(7):
     bvar[i] = tkinter.BooleanVar()
     bvar[i].set(False)
-    cbtn[i] = tkinter.Checkbutton(text=ITEM[i])
+    cbtn[i] = tkinter.Checkbutton(text=ITEM[i], font = ("한컴산뜻돋움", 12), variable=bvar[i], bg="#dfe")
+    cbtn[i].place(x=400, y=160+40*i)
 
-font = ("한컴산뜻돋움", 12), variable=bvar[i], bg="#dfe"
+root.mainloop()
