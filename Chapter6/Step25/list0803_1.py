@@ -9,7 +9,9 @@ def key_down(e):
 
 def main_proc():
     label["text"] = key
-    root.after(100, main_proc)
+    root.after(100, main_proc)  
+    # 0.1초 후 실행할 함수 지정(main_proc)
+    # 1000 = 1초, 100 = 0.1초
 
 root = tkinter.Tk()
 root.title("실시간 키입력")
