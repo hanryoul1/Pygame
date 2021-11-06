@@ -35,6 +35,11 @@ root.bind("<KeyRelease>", key_up)
 canvas = tkinter.Canvas(width=800, height=600, bg='lightgreen')
 canvas.pack()
 img = tkinter.PhotoImage(file= "image/mimi.png")
+# PhotoImage 명령으로 이미지 로딩
+
 canvas.create_image(cx, cy, image=img, tag="MYCHR")
+# create_image() 명령으로 캔버스에 이미지 표시
+# tag= 뒤에 입력한 문자열이 태그명/ex) MYCHR == free, but easy
+
 main_proc()
 root.mainloop()
