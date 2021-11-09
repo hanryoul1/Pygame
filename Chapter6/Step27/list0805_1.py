@@ -24,7 +24,7 @@ def main_proc():
         mx = mx + 1
     
     canvas.coords("MYCHR", mx * 80 + 40, my * 80)
-    root.after(150, main_proc)
+    root.after(300, main_proc)
 
 root = tkinter.Tk()
 root.title("미로 안 이동하기")
