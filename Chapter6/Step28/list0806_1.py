@@ -30,9 +30,6 @@ def main_proc():
         canvas.create_image(mx * 80 + 40, my * 80 + 40, image=img, tag="MYCHR")
         root.after(150, main_proc)
 
-    canvas.coords("MYCHR", mx * 80 + 40, my * 80)
-    root.after(150, main_proc)
-
 root = tkinter.Tk()
 root.title("미로를 칠한다냥!")
 root.bind("<KeyPress>", key_down)
