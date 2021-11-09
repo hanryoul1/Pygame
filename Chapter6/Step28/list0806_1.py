@@ -28,7 +28,7 @@ def main_proc():
         canvas.create_rectangle(mx * 80, my * 80, mx * 80 + 79 , my * 80 + 79, fill="pink", width=0)
         canvas.delete("MYCHR")
         canvas.create_image(mx * 80 + 40, my * 80 + 40, image=img, tag="MYCHR")
-        root.after(150, main_proc)
+        root.after(300, main_proc)
 
 root = tkinter.Tk()
 root.title("미로를 칠한다냥!")
