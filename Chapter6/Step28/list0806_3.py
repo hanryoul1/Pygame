@@ -43,12 +43,12 @@ def main_proc():
         canvas.delete("MYCHR")
         canvas.create_image(mx * 80 + 40, my * 80 + 40, image=img, tag="MYCHR")
 
-        if yuka == 30:
-            canvas.update()
-            tkinter.messagebox.showinfo("축하합니다!", "모든 바닥을 칠했습니다!")
+    if yuka == 30:
+        canvas.update()
+        tkinter.messagebox.showinfo("축하합니다!", "모든 바닥을 칠했습니다!")
         
-        else:
-            root.after(300, main_proc)
+    else:
+        root.after(150, main_proc)
 
 root = tkinter.Tk()
 root.title("미로를 칠한다냥!")
