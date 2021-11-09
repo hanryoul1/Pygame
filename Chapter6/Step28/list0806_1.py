@@ -22,16 +22,15 @@ def main_proc():
         mx = mx - 1
     if key == "Right" and maze[my][mx+1] == 0:
         mx = mx + 1
-
     if maze[my][mx] == 0:
-        maze[my][mx] = 2
-        canvas.create_rectangle(mx * 80, my * 80, mx * 80 + 79 , my * 80 + 79, fill="pink", width=0)
+        maze[my][mx] == 2
+        canvas.create_rectangle(mx * 80, my * 80, mx * 80 + 79, my * 80 + 79, fill="pink", width=0)
         canvas.delete("MYCHR")
         canvas.create_image(mx * 80 + 40, my * 80 + 40, image=img, tag="MYCHR")
-        root.after(300, main_proc)
+        root.after(150, main_proc)
 
 root = tkinter.Tk()
-root.title("미로를 칠한다냥!")
+root.title("미로 안 이동하기")
 root.bind("<KeyPress>", key_down)
 root.bind("<KeyRelease>", key_up)
 canvas = tkinter.Canvas(width=800, height=560, bg="white")
