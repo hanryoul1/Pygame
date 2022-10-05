@@ -1,4 +1,3 @@
-from numpy import char, character
 import pygame
 
 # 초기화 (반드시 필요) / 7분
