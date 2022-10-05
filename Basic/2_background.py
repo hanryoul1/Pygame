@@ -1,6 +1,6 @@
 import pygame
 
-# 초기화 (반드시 필요) / 7분
+# 초기화 (반드시 필요)
 pygame.init() 
 
 # 화면 크기 설정
