@@ -106,9 +106,7 @@ while running:
 
     #screen.fill((0, 0, 255))
     screen.blit(background, (0, 0)) # 배경 그리기 / (0, 0) 기준으로 오른쪽 아래로 그려짐
-    
     screen.blit(character, (character_x_pos, character_y_pos)) # 캐릭터 그리기
-
     screen.blit(enemy, (enemy_x_pos, enemy_y_pos)) # 적 그리기
 
     # 타이머 집어 넣기
