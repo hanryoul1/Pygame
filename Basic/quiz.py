@@ -35,7 +35,7 @@ clock = pygame.time.Clock()
 
 # 1. 사용자 게임 초기화 (배경화면, 게임 이미지, 좌표, 폰트 등)
 # 배경 만들기
-background = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\background.png')
+back = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\back.png')
 
 # 캐릭터 만들기
 character = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\character.png')
@@ -109,7 +109,7 @@ while running:
         running = False
 
     # 5. 화면에 그리기
-    screen.blit(background, (0, 0)) # 배경 그리기 / (0, 0) 기준으로 오른쪽 아래로 그려짐
+    screen.blit(back, (0, 0)) # 배경 그리기 / (0, 0) 기준으로 오른쪽 아래로 그려짐
     screen.blit(character, (character_x_pos, character_y_pos)) # 캐릭터 그리기
     screen.blit(enemy, (enemy_x_pos, enemy_y_pos)) # 적 그리기
     pygame.display.update() 
