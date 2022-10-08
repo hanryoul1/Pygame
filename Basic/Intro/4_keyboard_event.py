@@ -12,7 +12,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("My Pygame")
 
 # 배경 이미지 불러오기
-background = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\background.png')
+back = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\back.png')
 
 # 캐릭터(스프라이트) 불러오기
 character = pygame.image.load(('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\character.png'))
@@ -66,7 +66,7 @@ while running:
         character_y_pos = screen_height - character_height
 
     #screen.fill((0, 0, 255))
-    screen.blit(background, (0, 0)) # 배경 그리기 / (0, 0) 기준으로 오른쪽 아래로 그려짐
+    screen.blit(back, (0, 0)) # 배경 그리기 / (0, 0) 기준으로 오른쪽 아래로 그려짐
     
     screen.blit(character, (character_x_pos, character_y_pos)) # 캐릭터 그리기
 
