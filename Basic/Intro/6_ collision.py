@@ -18,7 +18,7 @@ clock = pygame.time.Clock()
 back = pygame.image.load('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\back.png')
 
 # 캐릭터(스프라이트) 불러오기
-character = pygame.image.load(('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\character.png'))
+character = pygame.image.load(('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\dog.png'))
 character_size = character.get_rect().size # 이미지의 크기를 구해옴
 character_width = character_size[0] # 캐릭터의 가로 크기
 character_height = character_size[1] # 캐릭터의 세로 크기
@@ -33,7 +33,7 @@ to_y = 0
 charcater_speed = 0.6
 
 # 적 enemy
-enemy = pygame.image.load(('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\enemy.png'))
+enemy = pygame.image.load(('C:\\Users\\한률\\Desktop\\VSC\Pygame\\Basic\\image\\ddong.png'))
 enemy_size = enemy.get_rect().size # 이미지의 크기를 구해옴
 enemy_width = enemy_size[0] # 캐릭터의 가로 크기
 enemy_height = enemy_size[1] # 캐릭터의 세로 크기
