@@ -36,7 +36,7 @@ character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
 character_x_pos = (screen_width / 2) - (character_width / 2)
-character_y_pos = screen_height - character_height - stage_height
+character_y_pos = screen_height - stage_height - character_height
 
 # 캐릭터 이동 방향
 character_to_x = 0
@@ -114,10 +114,10 @@ while running:
     weapons = [ [w[0], w[1]] for w in weapons if w[1] > 0]
     
     # 공 위치 정의
-    for ball_idx, ball_val in enumerate(balls):
-        ball_pos_x = ball_val["pos_x"]
-        ball_pos_y = ball_val["pos_y"]
-        ball_img_idx = ball_val["img_idx"]
+    for ball_idx, ball_val in enumerate(balls): # enumerate : 리스트의 원소에 순서값을 부여해주는 함수
+        ball_pos_x = ball_val["pos_x"] # 50
+        ball_pos_y = ball_val["pos_y"] # 50
+        ball_img_idx = ball_val["img_idx"] # 0
 
         ball_size = ball_images[ball_img_idx].get_rect().size
         ball_width = ball_size[0]
