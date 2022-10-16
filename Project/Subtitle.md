@@ -12,7 +12,30 @@ Project) 오락실 Pong 게임 만들기
 
 게임 이미지)
 1. 배경 : 640 * 480 (가로 세로)
-2. 무대 : 640 * 50
+2. 스테이지 : 640 * 50
 3. 캐릭터 : 33 * 60
 4. 무기 : 20 * 430
 5. 공 : 160 * 160, 80 * 80, 40 * 40, 20 * 20
+
+[프로젝트 게임 이미지]
+1. 배경
+https://www.freepik.com/free-vector/arcade-game-world-pixel-scene_4815143.htm#query=arcade-game-world-pixel-scene&position=8
+
+2. 스테이지
+https://www.freepik.com/free-vector/urban-city-day-time-background_4708004.htm#page=5&query=brick&position=47
+
+3. 캐릭터
+https://opengameart.org/content/custom-sprites-for-the-crystal-palace-0
+
+4. 무기 머리 부분
+https://www.freepik.com/free-vector/weapon-icons-set_3924829.htm#page=1&query=arrow%20weapon&position=7
+
+4. 무기 몸체 부분 (와이어)
+https://www.freepik.com/free-vector/barbed-wire-realistic-illustration-separate-elements-barbed-wire_3586280.htm#page=1&query=wire&position=37
+
+5. 공
+https://www.freepik.com/free-vector/colored-bubbles_808278.htm#page=2&query=bubble&position=18
+
+[소스코드]
+아래 블로그에서 소스코드를 받으실 수 있습니다. 
+https://nadocoding.tistory.com/8
